@@ -1,0 +1,26 @@
+{
+  "name": "FriendFinderApp",
+  "version": "1.0.0",
+  "description": "Friend Finder app project with node on heroku",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jayanti18/FriendFinderApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jayanti18/FriendFinderApp/issues"
+  },
+  "homepage": "https://github.com/Jayanti18/FriendFinderApp#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "path": "^0.12.7"
+  }
+}

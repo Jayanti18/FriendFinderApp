@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Friend Finder | Survey</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|PT+Mono" rel="stylesheet">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron" style="background-color: #000;">
+            <div class="title">Friend Finder Survey</div>
+            <div class="slogan">Fill out the survey below to find your match</div>
+        </div>
+    </div>
+    <div class="survey-container">
+        <form method="POST" action="/data/friends">
+            <div class="subtitle">About You</div>
+            <fieldset class="form-group">
+                <label for="name">Name (Required)</label>
+                <input type="text" class="form-control" placeholder="Your Name" id="name" name="name" required>
+            </fieldset>
+            <fieldset class="form-group">
+                <label for="photo">Photo Link (Required)</label>
+                <input type="text" class="form-control" placeholder="http://flickr.jpg" id="photo" name="photo"
+                    required>
+            </fieldset>
+            <div class="subtitle">01</div>
+            <fieldset class="form-group">
+                <label for="01">Your mind is always buzzing with unexplored ideas and plans.</label>
+                <!-- <br> -->
+                <!-- <div class="col-md-4"> -->
+                        <div class="subtitle"></div>
+                    <select class="form-control" id="01" name="scores[0]">
+                        <option>1 (Strongly Disagree)</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5 (Strongly Agree)</option>
+                    </select>
+                <!-- </div> -->
+            </fieldset>
+            <div class="subtitle">02</div>
+            <fieldset class="form-group">
+                <label for="02">Generally speaking, you rely more on your experience than your imagination.</label>
+                <select class="form-control" id="02" name="scores[0]">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+                </select>
+            </fieldset>
+            <div class="subtitle">03</div>
+            <fieldset class="form-group">
+                <label for="03">You find it easy to stay relaxed and focused even when there is some pressure.</label>
+                <select class="form-control" id="03" name="scores[0]">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+                </select>
+            </fieldset>
+            <div class="subtitle">04</div>
+            <fieldset class="form-group">
+                <label for="04">You rarely do something just out of sheer curiosity.</label>
+                <select class="form-control" id="04" name="scores[0]">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+                </select>
+            </fieldset>
+            <div class="subtitle">05</div>
+            <fieldset class="form-group">
+                <label for="05">People can rarely upset you.</label>
+                <select class="form-control" id="05" name="scores[0]">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+                </select>
+            </fieldset>
+            <div class="subtitle">06</div>
+            <fieldset class="form-group">
+                <label for="06">It is often difficult for you to relate to other people's feelings.</label>
+                <select class="form-control" id="06" name="scores[0]">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+                </select>
+            </fieldset>
+            <div class="subtitle">07</div>
+            <fieldset class="form-group">
+                <label for="07">In a discussion, truth should be more important than people's sensitivities.</label>
+                <select class="form-control" id="07" name="scores[0]">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+                </select>
+            </fieldset>
+            <div class="subtitle">08</div>
+            <fieldset class="form-group">
+                <label for="08">You get carried away by fantasies and ideas.</label>
+                <select class="form-control" id="08" name="scores[0]">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+                </select>
+            </fieldset>
+            <div class="subtitle">09</div>
+            <fieldset class="form-group">
+                <label for="09">You think that everyone's views should be respected regardless of whether they are
+                    supported by facts or not.</label>
+                <select class="form-control" id="09" name="scores[0]">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+                </select>
+            </fieldset>
+            <div class="subtitle">10</div>
+            <fieldset class="form-group">
+                <label for="10">You feel more energetic after spending time with a group of people.</label>
+                <select class="form-control" id="10" name="scores[0]">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+                </select>
+            </fieldset>
+            <br />
+            <input type="submit" class="btn btn-primary" value="Submit Survey" id="submit">
+        </form>
+        <br /><br />
+
+
+    </div>
+</body>
+
+</html>
