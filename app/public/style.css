@@ -2,33 +2,27 @@
 	text-align: center;
 	font-family: "Comfortaa";
 	font-size: 500%;
-	color: #fff;
+	color: black;
 }
 
-.slogan{
+.sectitle{
 	text-align: center;
 	font-family: "PT Mono";
 	font-size: 150%;
 	text-transform: uppercase;
-	color: #fff;
+	color: black;
 }
 
 .survey-button{
-	text-align: center;
+	text-align: left;
 	font-family: "PT Mono";
 	font-size: 120%;
 	text-transform: uppercase;
 }
 
-.subtitle{
-	text-align: center;
-	font-family: "Comfortaa";
-	font-size: 200%;
-	font-weight: bold;
-}
 
 .survey-container{
 	width: 50%;
-	margin-left: 25%;
-	text-align: center;
+	margin-left: 8%;
+	text-align: left;
 }
